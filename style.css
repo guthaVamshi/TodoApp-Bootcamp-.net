@@ -1,0 +1,24 @@
+*{
+  font-family: 'Space Mono', monospace;
+}
+.Addcontainer{
+  margin: 4rem;
+  
+}
+.AddTasks,.DeleteTasks,.EditTasks{
+    padding: 2rem;
+ 
+}
+
+h1{
+  text-align: center;
+ 
+}
+@media screen and (max-width: 480px) {
+  .container1 {
+    flex-direction: column;
+  }
+  .AddContainer{
+    margin: 3rem;
+  }
+}
